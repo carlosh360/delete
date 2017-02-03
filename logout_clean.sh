@@ -13,5 +13,8 @@ echo 'rm -r *' >> clean.sh
 echo 'cd ..' >> clean.sh
 echo 'cd Desktop' >> clean.sh
 echo 'rm -r *' >> clean.sh 
+echo 'cd /home/student/.local/share/Trash/' >> clean.sh 
+echo 'rm -r *' >> clean.sh 
 chmod +x clean.sh
 service lightdm restart
+'
