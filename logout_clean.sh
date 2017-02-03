@@ -10,5 +10,8 @@ echo '#!/bin/bash' >> clean.sh
 echo 'cd --' >> clean.sh
 echo 'cd Documents' >> clean.sh
 echo 'rm -r *' >> clean.sh 
+echo 'cd ..' >> clean.sh
+echo 'cd Desktop' >> clean.sh
+echo 'rm -r *' >> clean.sh 
 chmod +x clean.sh
 service lightdm restart
